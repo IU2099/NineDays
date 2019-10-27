@@ -1,2 +1,20 @@
-hello
+//-----------------------	git	-----------------------
+git --version	//查看版本
+git init myGit	//创建本地repository
+git status	//检查当前文件状态
+git add .
+	//不加参数默认为将修改操作的文件和未跟踪新添加的文件添加到git系统的暂存区，注意不包括删除
+git add -u .
+	//-u 表示将已跟踪文件中的修改和删除的文件添加到暂存区，不包括新增加的文件，注意这些被删除的文件被加入到暂存区再被提交并推送到服务器的版本库之后这个文件就会从git系统中消失了。
+git add -A .
+	//-A 表示将所有的已跟踪的文件的修改与删除和新增的未跟踪的文件都添加到暂存区。
+git diff	//查看修改文件
+git commit	//提交
+Git push	//推送
+git clone url	//克隆
+git config --global user.name "Your Name"	//指定用户名
+git config --global user.email "youremail@domain.com"	//指定邮箱
 
+git clone https://github.com/Spring-onion/NineDays.git 
+git remote add origin https://github.com/Spring-onion/NineDays.git
+git push origin master
