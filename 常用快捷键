@@ -1,0 +1,14 @@
+打开路径：nautilus ~/xxxx
+
+
+
+//----------------------- git  
+git --version //查看版本
+git config --global user.name "Your Name" //指定用户名
+git config --global user.email "youremail@domain.com" //指定邮箱
+git init myGit //创建本地repository
+git clone https://github.com/jackfrued/Python-100-Days.git //克隆
+将本地的repository提交到GitHub：
+git remote add origin https://github.com/Spring-onion/NineDays.git
+git push origin master
+
