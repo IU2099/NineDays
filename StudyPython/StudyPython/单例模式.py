@@ -1,4 +1,4 @@
-# 实例化  一个单例   
+# 实例化一个单例   
 class Singleton(object):
     __instance = None
 
